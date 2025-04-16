@@ -6,16 +6,15 @@ int main(){
   int escolhaJogador, escolhaPc;
   srand(time(0));
 
-  printf("Jogo Pedra-Papel-Tesoura!\n");
+  printf("Jogo Pedra-Papel-Tesoura!\n\n");
   printf("Escolha uma opção abaixo:\n");
   printf("1. Pedra.\n");
   printf("2. Papel.\n");
-  printf("3. Tesoura.\n");
+  printf("3. Tesoura.\n\n");
   printf("Sua escolha: ");
   scanf("%d", &escolhaJogador);
 
   escolhaPc = rand() % 3 + 1;
-
 
   switch(escolhaJogador){
     case 1:
